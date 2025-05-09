@@ -6,7 +6,7 @@ function SendMessage() {
   var role = player.GetVar("role");
   var apiKey = player.GetVar("apiKey");
 
-  var systemContent = `Act as a ${role} Assistant. Provide a concise answer to the user's question in a maximum of 500 characters.`;
+  var systemContent = `Act as a ${role} Assistant. Provide a concise answer to the user's question in a maximum of 2000 characters.`;
   var userContent = `Question: ${message}`;
   apiKey = `Bearer ${apiKey}`;
 
